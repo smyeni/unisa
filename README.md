@@ -1,2 +1,2 @@
 # unisa
-Unisa Cousework, BSc Applied Mathematics with Computer Science
+Unisa Cousework, BSc Applied Mathematics & Computer Science
