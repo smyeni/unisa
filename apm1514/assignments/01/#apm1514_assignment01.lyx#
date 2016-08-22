@@ -174,13 +174,6 @@ y = 4 + Ae
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \space{}
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
@@ -244,7 +237,11 @@ ln|y-
 \begin_inset Formula $\frac{1}{4}$
 \end_inset
 
-| = -4t + C
+| = -4
+\begin_inset Formula $\frac{t^{2}}{2}$
+\end_inset
+
+ + C
 \end_layout
 
 \begin_layout Standard
@@ -253,7 +250,7 @@ y-
 \end_inset
 
  = e
-\begin_inset Formula $^{-4t+C}$
+\begin_inset Formula $^{-2t^{2}+C}$
 \end_inset
 
 
@@ -268,7 +265,7 @@ y-
 \end_inset
 
  + Ae
-\begin_inset Formula $^{-4t}$
+\begin_inset Formula $^{-2t^{2}}$
 \end_inset
 
 , A = e
@@ -288,51 +285,6 @@ From intial conditions, y(1) = 5
 
  5 = 
 \begin_inset Formula $\frac{1}{4}$
-\end_inset
-
- + Ae
-\begin_inset Formula $^{-4\times1}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Rightarrow\frac{19}{4}$
-\end_inset
-
- = 
-\begin_inset Formula $\frac{A}{e^{4}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-A = 
-\begin_inset Formula $\frac{19e^{4}}{4}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
-
 \end_inset
 
 

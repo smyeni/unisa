@@ -1,0 +1,57 @@
+%% LyX 2.2.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{esint}
+\usepackage{babel}
+\begin{document}
+
+\title{Mathematical Modelling (APM1514)}
+
+\author{S Myeni (34537023)}
+
+\maketitle
+Question 1
+
+\medskip{}
+
+$\frac{dy}{dt}$ = 2(4 - y)
+
+$\Rightarrow$$\frac{dy}{4-y}$ = 2dt
+
+$\Rightarrow\int\frac{dy}{4-y}$ = $\int2dt$
+
+$\Rightarrow$-ln|4-y| = 2t + C
+
+$\Rightarrow$ln $\left|4-y\right|$ = -2t + C
+
+$\Rightarrow$4-y = e$^{-2t+C}$ = Ae$^{-2t}$
+
+$\Rightarrow$-y = -4 + Ae$^{-2t}$
+
+$\therefore$y = 4 + Ae$^{-2t}$
+
+\rule[0.5ex]{1\columnwidth}{1pt}
+
+Question 4
+
+\medskip{}
+
+$\frac{dy}{dt}$ = 1 - 4y, y(1) = 5
+
+$\frac{dy}{1-4y}$ = dt, separation of variables
+
+$\int\frac{dy}{1-4y}$ = $\frac{1}{1}\text{·}\int dt$
+
+$\int\frac{dy}{y-\frac{1}{4}}$ = -4$\int dt$, divide LHS \& RHS
+denominators by -4
+
+ln|y-$\frac{1}{4}$| = -4$\frac{t^{2}}{2}$ + C
+
+y-$\frac{1}{4}$ = e$^{-2t^{2}+C}$
+
+$\Rightarrow$ y = $\frac{1}{4}$ + Ae\textasciicircum{}\{-2t\textasciicircum{}2\}
+\end{document}

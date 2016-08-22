@@ -244,7 +244,11 @@ ln|y-
 \begin_inset Formula $\frac{1}{4}$
 \end_inset
 
-| = -4t + C
+| = -4
+\begin_inset Formula $\frac{t^{2}}{2}$
+\end_inset
+
+ + C
 \end_layout
 
 \begin_layout Standard
@@ -253,7 +257,7 @@ y-
 \end_inset
 
  = e
-\begin_inset Formula $^{-4t+C}$
+\begin_inset Formula $^{-2t^{2}+C}$
 \end_inset
 
 
@@ -268,7 +272,7 @@ y-
 \end_inset
 
  + Ae
-\begin_inset Formula $^{-4t}$
+\begin_inset Formula $^{-2t^{2}}$
 \end_inset
 
 , A = e
@@ -291,7 +295,7 @@ From intial conditions, y(1) = 5
 \end_inset
 
  + Ae
-\begin_inset Formula $^{-4\times1}$
+\begin_inset Formula $^{-2\times1}$
 \end_inset
 
 
@@ -302,7 +306,7 @@ From intial conditions, y(1) = 5
 \end_inset
 
  = 
-\begin_inset Formula $\frac{A}{e^{4}}$
+\begin_inset Formula $\frac{A}{e^{2}}$
 \end_inset
 
 
@@ -313,7 +317,7 @@ From intial conditions, y(1) = 5
 \end_inset
 
 A = 
-\begin_inset Formula $\frac{19e^{4}}{4}$
+\begin_inset Formula $\frac{19e^{2}}{4}$
 \end_inset
 
 
