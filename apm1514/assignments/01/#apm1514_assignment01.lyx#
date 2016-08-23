@@ -174,6 +174,13 @@ y = 4 + Ae
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
@@ -204,13 +211,32 @@ Question 4
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
 \begin_inset Formula $\frac{dy}{1-4y}$
 \end_inset
 
  = dt, separation of variables
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
 \begin_inset Formula $\int\frac{dy}{1-4y}$
 \end_inset
 
@@ -219,10 +245,14 @@ Question 4
 \end_inset
 
 
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\int\frac{dy}{y-\frac{1}{4}}$
+\begin_inset Formula $\Rightarrow\int\frac{dy}{y-\frac{1}{4}}$
 \end_inset
 
  = -4
@@ -230,27 +260,37 @@ Question 4
 \end_inset
 
 , divide LHS & RHS denominators by -4
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-ln|y-
-\begin_inset Formula $\frac{1}{4}$
+\begin_inset Formula $\Rightarrow\ln\mid y-\frac{1}{4}\mid$
 \end_inset
 
-| = -4
-\begin_inset Formula $\frac{t^{2}}{2}$
+= -4t + C
+\begin_inset VSpace medskip
 \end_inset
 
- + C
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
 y-
 \begin_inset Formula $\frac{1}{4}$
 \end_inset
 
  = e
-\begin_inset Formula $^{-2t^{2}+C}$
+\begin_inset Formula $^{-4t+C}$
+\end_inset
+
+
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -265,7 +305,7 @@ y-
 \end_inset
 
  + Ae
-\begin_inset Formula $^{-2t^{2}}$
+\begin_inset Formula $^{-4t}$
 \end_inset
 
 , A = e
@@ -276,7 +316,21 @@ y-
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 From intial conditions, y(1) = 5
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -287,7 +341,369 @@ From intial conditions, y(1) = 5
 \begin_inset Formula $\frac{1}{4}$
 \end_inset
 
+ + Ae
+\begin_inset Formula $^{-4\times1}$
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow\frac{19}{4}$
+\end_inset
+
+ = 
+\begin_inset Formula $\frac{A}{e^{4}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+A = 
+\begin_inset Formula $\frac{19e^{4}}{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+Question 3a
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\frac{dx}{dt}$
+\end_inset
+
+ = 
+\begin_inset Formula $\frac{2x}{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow\frac{dx}{x}$
+\end_inset
+
+ = 2
+\begin_inset Formula $\frac{dt}{t}$
+\end_inset
+
+ , separation of variables
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow\int\frac{dx}{x}$
+\end_inset
+
+ = 2
+\begin_inset Formula $\int\frac{dt}{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\ln\mid x\mid$
+\end_inset
+
+ = 2
+\begin_inset Formula $\ln\mid t\mid$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\mid x\mid$
+\end_inset
+
+ = e
+\begin_inset Formula $^{2ln\mid t\mid}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\therefore x$
+\end_inset
+
+ = 
+\begin_inset Formula $\pm Ae^{\ln\mid t\mid}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Question 3b
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dx}{dt}$
+\end_inset
+
+ + 2x - 1 = 0
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dx}{dt}$
+\end_inset
+
+ = 1-2x
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dx}{1-2x}$
+\end_inset
+
+ = dt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\int\frac{dx}{1-2x}$
+\end_inset
+
+ = 
+\begin_inset Formula $\int dt$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+-
+\begin_inset Formula $\int\frac{dx}{2x-1}$
+\end_inset
+
+ = t + C
+\end_layout
+
+\begin_layout Standard
+-
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\begin_inset Formula $\ln\mid2x-1\mid$
+\end_inset
+
+ = t + C
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ln\mid2x-1\mid$
+\end_inset
+
+ = -t + C
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2x-1 = 
+\begin_inset Formula $e^{-t+C}$
+\end_inset
+
+ = A
+\begin_inset Formula $e^{-t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2x = 1 + A
+\begin_inset Formula $e^{-t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vphantom{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+x
 \end_layout
 
 \end_body
